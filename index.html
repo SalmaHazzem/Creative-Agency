@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Design </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="file.css">
+</head>
+<body>
+    <div class="bullets flex flex-col w-1/6 fixed right-0 z-50 items-end justify-center h-full">
+    <div class="sideDiv">
+    <div class="smallCircle"></div>
+    <a href="#about">about us</a>
+    </div>
+    <div class="sideDiv">
+    <div class="smallCircle"></div>
+    <a href="#userSkill">skills</a>
+    </div>
+    <div class="sideDiv">
+    <div class="smallCircle"></div>
+    <a href="#userGallary">gallary</a>
+    </div>
+    <div class="sideDiv">
+    <div class="smallCircle"></div>
+    <a href="#userTime">timeline</a>
+    </div>
+    <div class="sideDiv">
+    <div class="smallCircle"></div>
+    <a href="#userFea">features</a>
+    </div>
+    <div class="sideDiv">
+    <div class="smallCircle"></div>
+    <a href="#userTes">testimonials</a>
+    </div>
+    </div>
+    <img src="imgs/icons8-settings.gif" alt="" class="oursvg">
+    <aside class="bg-white  flex-col w-1/3  left-0 z-50  h-full p-3 fixed">  
+        <div class="colors">
+            <p>colors</p>
+            <div class="circles flex">
+                <div class="bg-orange-600" value="orange"></div>
+                <div class="bg-pink-600"  value="pink"></div>
+                <div class="bg-green-800"  value="green"></div>
+                <div class="bg-blue-600"  value="blue"></div>
+                <div class="bg-red-600"  value="red"></div>
+            </div>
+        </div>
+        <div class="backgrounds">
+            <p>random backgrounds</p>
+            <div class="flex">
+                <button class="yesBtn">yes</button>
+                <button class="noBtn">no</button>
+            </div>
+        </div>
+        <div class="show">
+            <p>show bullets</p>
+            <div class="flex">
+                <button class="bulletYes">yes</button>
+                <button class="bulletNo">no</button>
+            </div>
+        </div>
+        <button class="w-full reset">reset options</button>
+    </aside>
+    <header class="text-base relative text-white">
+        <svg class="threeBars" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>          
+        <img src="imgs/03.jpg" alt="" id="mainImge" class="z-10">
+        <nav class="justify-around absolute top-3 w-full">
+            <p class="font-bold">Special Design</p>
+            <ul class="flex w-1/2 justify-end">
+                <li>
+                    <a href="#about">about</a>
+                </li>
+                <li>
+                    <a href="#userSkill">skills</a>
+                </li>
+                <li>
+                    <a href="#userGallary">Gallary</a>
+                </li>
+                <li>
+                    <a href="#userTime">TimeLine </a>
+                </li>
+                <li>
+                    <a href="#userFea">Feature</a>
+                </li>
+                <li>
+                    <a href="#userTes">Testimonials</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="flex flex-col items-center absolute top-1/2 w-full">
+            <h1 class="font-bold text-4xl">we are <span>creative</span> agency</h1>
+            <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis consectetur, nam saepe voluptate fuga ducimus.</p>
+
+        </div>
+        
+    </header>
+    <main>
+        <section class="aboutUs flex items-center text-center" id="about">
+            <div>
+                <h2>about us</h2>
+                <p class="text-center text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae cum distinctio veritatis dolor eum labore ipsa dolorum iusto, cupiditate repellat error ipsam officia magni recusandae, impedit ex rem laborum consequuntur. Aliquam magni possimus consectetur earum laudantium excepturi impedit molestiae quis!</p>
+            </div>
+
+            <img src="imgs/about-us.jpg" alt="">
+        </section>
+        <section class="skills" id="userSkill">
+            <h2>our skills</h2>
+            <div class="ourSkills">
+                <div class="skill">
+                    <p>html</p>
+                    <div class="divide">
+                    <div class="html" value="90%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>css</p>
+                    <div class="divide">
+                        <div class="css" value="40%"></div>
+                        </div>
+                </div>
+                <div class="skill">
+                    <p>javascript</p>
+                    <div class="divide">
+                        <div class="javascript" value="80%"></div>
+                        </div>
+                </div>
+                <div class="skill">
+                    <p>python</p>
+                    <div class="divide">
+                        <div class="python" value="20%"></div>
+                        </div>
+                </div>
+                <div class="skill">
+                    <p>PHP</p>
+                    <div class="divide">
+                        <div class="php" value="80%"></div>
+                        </div>
+                </div>
+                <div class="skill">
+                    <p>mySQL</p>
+                    <div class="divide">
+                        <div class="mysql" value="50%"></div>
+                        </div>
+                </div>
+            </div>
+        </section>
+        <section class="ourGallary" id="userGallary">
+            <h2>our Gallary</h2>
+            <div class="imges flex justify-around flex-wrap">
+                <img src="imgs/02.jpg" alt="" class="img" value="image Two">
+                <img src="imgs/01.jpg" alt="" class="img" value="image one">
+                <img src="imgs/03.jpg" alt="" class="img" value="image Three">
+                <img src="imgs/04.jpg" alt="" class="img" value="image Four">
+                <img src="imgs/05.jpg" alt="" class="img" value="image Five">
+                <img src="imgs/06.png" alt="" class="img" value="image Six">
+                <img src="imgs/07.jpg" alt="" class="img" value="image Seven">
+                <img src="imgs/08.jpg" alt="" class="img" value="image Eight">
+                <img src="imgs/09.jpg" alt="" class="img" value="image Nine">
+                <img src="imgs/10.jpg" alt="" class="img" value="image Ten">
+            </div>
+        </section>
+        <section class="timeLine" id="userTime">
+            <div class="backline"></div>
+            <div class="group">
+                <p class="year">2018</p>
+            </div>
+             <div class="test">
+                    <h2>testing heading</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi natus dolor iure esse, nobis repellendus modi? Deserunt, quia itaque architecto consequuntur velit adipisci culpa saepe vel ipsam eligendi, maiores eaque, molestias doloremque quidem perspiciatis ex ut ullam. Non, quod rerum.</p>
+             </div>
+             <div class="test special">
+                    <h2>testing heading</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi natus dolor iure esse, nobis repellendus modi? Deserunt, quia itaque architecto consequuntur velit adipisci culpa saepe vel ipsam eligendi, maiores eaque, molestias doloremque quidem perspiciatis ex ut ullam. Non, quod rerum.</p>
+             </div>
+            <div class="group">
+                    <p class="year">2016</p>
+             </div>
+             <div class="test">
+                <h2>testing heading</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi natus dolor iure esse, nobis repellendus modi? Deserunt, quia itaque architecto consequuntur velit adipisci culpa saepe vel ipsam eligendi, maiores eaque, molestias doloremque quidem perspiciatis ex ut ullam. Non, quod rerum.</p>
+         </div>
+         <div class="test mt-3">
+            <h2>testing heading</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi natus dolor iure esse, nobis repellendus modi? Deserunt, quia itaque architecto consequuntur velit adipisci culpa saepe vel ipsam eligendi, maiores eaque, molestias doloremque quidem perspiciatis ex ut ullam. Non, quod rerum.</p>
+     </div>
+          
+        </section>
+        <section class="ourFeatures" id="userFea">
+            <h2>our features</h2>
+            <div class="features flex flex-wrap justify-around">
+                <div class="feature">
+                    <img src="imgs/programming.svg" alt="">
+                    <h3>development</h3>
+                    <div class="colored"></div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore doloremque rem error tenetur voluptatibus illum illo, quae placeat eaque suscipit!</p>
+                </div>
+                <div class="feature">
+                    <img src="imgs/advertising.svg" alt="">
+                    <h3>marketing</h3>
+                    <div class="colored"></div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore doloremque rem error tenetur voluptatibus illum illo, quae placeat eaque suscipit!</p>
+                </div>
+                <div class="feature">
+                    <img src="imgs/hosting-icon.svg" alt="">
+                    <h3>hosting</h3>
+                    <div class="colored"></div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore doloremque rem error tenetur voluptatibus illum illo, quae placeat eaque suscipit!</p>
+                </div>
+                <div class="feature">
+                    <img src="imgs/mobile-app.svg" alt="">
+                    <h3>mobile develope</h3>
+                    <div class="colored"></div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore doloremque rem error tenetur voluptatibus illum illo, quae placeat eaque suscipit!</p>
+                </div>
+                <div class="feature">
+                    <img src="imgs/web-design.svg" alt="">
+                    <h3>cloud and servers</h3>
+                    <div class="colored"></div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore doloremque rem error tenetur voluptatibus illum illo, quae placeat eaque suscipit!</p>
+                </div>
+                <div class="feature">
+                    <img src="imgs/graphic-design.svg" alt="">
+                    <h3>seo</h3>
+                    <div class="colored"></div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore doloremque rem error tenetur voluptatibus illum illo, quae placeat eaque suscipit!</p>
+                </div>
+            </div>
+        </section>
+        <section class="testimonials" id="userTes">
+            <h2 class="text-white">testimonials</h2>
+            <div class="flex justify-around">
+                <div class="person">
+                    <p>Iam very happy with the product its amazing and i recieve it very fast and the price was amazing.
+                    </p>
+                    <div class="info">
+                    <img src="imgs/10.jpg" alt="">
+                    <div>
+                    <p class="text-black">ahmed mosaad</p>
+                    <p>CEO at copmpany</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="person">
+                    <p>Iam very happy with the product its amazing and i recieve it very fast and the price was amazing.
+                    </p>
+                    <div class="info">
+                        <img src="imgs/02.jpg" alt="">
+                        <div>
+                        <p class="text-black">ahmed mosaad</p>
+                        <p>CEO at copmpany</p>
+                        </div>
+                        </div>
+                </div>
+                <div class="person">
+                    <p>Iam very happy with the product its amazing and i recieve it very fast and the price was amazing.
+                    </p>
+                    <div class="info">
+                        <img src="imgs/05.jpg" alt="">
+                        <div>
+                        <p class="text-black">ahmed mosaad</p>
+                        <p>CEO at copmpany</p>
+                        </div>
+                        </div>
+                </div>
+            </div>
+        </section>
+        <section class="contactUs">
+            <h2>contact Us</h2>
+            <form class="flex items-center justify-center gap-3">
+                <div class="flex flex-col">
+                    <input type="text" placeholder="Your Name">
+                    <input type="tel" placeholder="Your Number">
+                    <input type="email" placeholder="Your Email">
+                    <input type="text" placeholder="Subject">
+                </div>
+                <div class="flex flex-col">
+                    <input type="text" placeholder="Your Message" class="h-32">
+                    <button>send</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p class="bg-black text-white text-center">created with love by salma hazem</p>
+    </footer>
+
+</body>
+<script src="file.js"></script>
+</html>
